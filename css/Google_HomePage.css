@@ -1,0 +1,202 @@
+/* Google Home Page re-creation */
+
+/* CSS Reset START*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset END*/
+    
+#navbar_div 
+    {height:25px;
+     min-width:980px;
+     background-color:#2d2d2d;
+     opacity:1;
+     padding:6px 0px 0px 0px;
+    }
+
+.navbar_text 
+    {padding:0 9px; 
+     color:#cccccc; 
+     font-family:arial, sans-serif; 
+     font-size:13px; 
+     font-weight:bold;     
+     text-decoration:none;}
+            
+.navbar_text:hover {color:#FFFFFF}
+
+
+#rhs_div
+   {float:right; width:270px;} /* {position:relative; left:700px; width:270px;} */
+    
+#sign_in {
+    position:relative; left:120px;
+    height:29px;
+    width:80px;
+    border:1px solid #C6C6C6;
+    opacity:1;
+    padding:0;
+    background-color:#F8F8F8;
+    margin: 20px 0px 20px 0px;
+    border-radius:2px;
+    } 
+#sign_in span {
+    width:80%;
+    margin: 0px 15px 0 15px;
+    color:#666666;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    line-height:27px;
+    }
+#install_chrome_div 
+    {
+    width:250px;
+    font-size:13px;
+    font-family:Arial, sans-serif;
+    border: 1px solid #EBEBEB;
+}
+#install_chrome_div img 
+    {position:relative; left:3px; top:3px;
+    font-size:13px;
+    font-family:Arial, sans-serif;}
+
+#install_google_chrome_button
+    {
+    position:relative;
+    left:20px; 
+    color:white;
+    width:70%;
+    height:20px;
+    border-radius:3px;
+    padding:4px 8px 4px 8px;
+    background-color:#3399FF;
+    margin: 15px 0px 20px 0px;
+    padding: 8px 0 0 10px;
+    border: 1px solid #EBEBEB;
+    font-size:13px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+    text-align:center;
+}
+
+
+#main_search
+    {text-align: center;
+     clear:both;} 
+#google_logo 
+    {height:95px; 
+     width:275px;
+     padding: 20px 0 40px 0; 
+     margin:auto; 
+     display:block;}
+
+#search_for 
+    {height:20px; 
+     width:70%; 
+     margin:auto;
+     font-size:13px; 
+     font-family:Arial, sans-serif; }
+     
+#google_buttons {
+    width:50%; 
+    margin:auto;
+   }
+.google_button
+    {width:100px;
+    display:inline-block;
+    border:1px solid #C6C6C6; 
+    background-color:#F5F5F5; 
+    font-size:11px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+    border-radius:2px 2px 2px 2px;
+    padding:10px; 
+    text-align:center;
+    margin:16px 8px; 
+    color:#222222;}
+
+#francais_text
+   {width:30%; 
+    display:block;
+    margin:auto;
+    font-size:13px;
+    font-family:Arial, sans-serif;
+    }
+
+#footer  
+    {position:absolute;
+     bottom:0;
+     clear:right; /* After all flowing elements, move to RHS */
+     width:100%;
+     min-width:980px;
+     font-size:10pt;
+     font-family:Arial, sans-serif;
+     margin: 2px 10px 0px 10px;
+     text-align:right;
+     color:#666666;
+     border: 1px solid #EBEBEB;
+     padding: 3px 0px 10px 0px;
+     margin: 0 0 0 0 ;
+     }
+
+#footer li 
+    {display: inline-block;  /* USEFUL */
+     height:15px;
+     font-size:13px;
+     font-family:Arial, sans-serif;
+     margin: 2px 10px 0px 10px;
+     text-align:right;
+     text-decoration:none;
+     color:#666666;
+     }
+#footer a {
+    color:#666666;
+    text-decoration:none;}
+#footer a:visited{
+    color:#666666;}
+#footer a:link {color:#666666;}
+#footer a:hover{text-decoration:underline}     
